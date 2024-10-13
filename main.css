@@ -1,5 +1,5 @@
 body {
-  /* /background-color: black; */
+  background-color: black;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@ body {
 }
 
 .calender {
-  /* /background-color: tomato; */
+  background-color: tomato;
   display: grid;
   grid-template-columns: repeat(4, 32.5%);
   gap: 1rem;
@@ -61,4 +61,42 @@ td {
 
 .training {
   display: none;
+}
+body {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+}
+
+main {
+  background-color: tomato;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  gap: 29px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  empty-cells: show;
+  padding: 5px;
+}
+
+.header {
+  background-color: rgb(31, 165, 218);
+}
+
+.thokozani {
+  background-color: rgb(168, 168, 168);
+  color: gray;
+}
+
+.low-attendance {
+  color: red;
+}
+
+.average {
+  color: blue;
 }
